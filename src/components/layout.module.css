@@ -20,4 +20,11 @@ padding-left: 0;
     color:black;
 }
 
+.site-title{
+    font-size:3rem;
+    color:gray;
+    font-weight: 700;
+    margin: 3rem 0;
+}
+
 /*반응형 컨테이너를 위한 코드 라인 */

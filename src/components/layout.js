@@ -3,7 +3,7 @@ import { Link,useStaticQuery,graphql } from "gatsby";
 import {
     container, heading,
     navLinks,
-    navLinkItem, navLinkText
+    navLinkItem, navLinkText,siteTitle,
 } from "./layout.module.css";
 
 function Layout({ children, pageTitle }) {
@@ -14,19 +14,19 @@ function Layout({ children, pageTitle }) {
       site {
         siteMetadata {
           title
-          description
+
         }
       }
     }
   `);
 
     return (
-        
+
             <div className={container}>
                 <title>
                     {pageTitle} | {data.site.siteMetadata.title}
                 </title>
-                <header>{data.site.siteMetadata.description}</header>
+                <header className={siteTitle}>{data.site.siteMetadata.title}</header>
                 <nav >
                     <ul className={navLinks}>
                         <li className={navLinkItem}><Link className={navLinkText} to="/">Home</Link></li>
