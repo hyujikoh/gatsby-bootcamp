@@ -21,8 +21,6 @@ const BlogPage = () => {
         ))}
             
         </ul>
-
-      {JSON.stringify(data)}
     </Layout>
   )
 }
