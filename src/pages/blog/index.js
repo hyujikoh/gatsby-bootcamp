@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 import { Link,useStaticQuery,graphql } from "gatsby";
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 const BlogPage = () => {
