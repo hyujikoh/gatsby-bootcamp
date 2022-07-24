@@ -26,5 +26,16 @@ padding-left: 0;
     font-weight: 700;
     margin: 3rem 0;
 }
+.language-text{
 
+    position : relative;
+    overflow : auto;
+
+}
+
+.language-JAVA{
+    position : relative;
+    overflow : auto;
+
+}
 /*반응형 컨테이너를 위한 코드 라인 */
